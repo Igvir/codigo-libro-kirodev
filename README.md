@@ -1,5 +1,6 @@
-# Código del libro  
-## *De la Idea al Código en Minutos con Kiro*
+# *De la Idea al Código en Minutos con Kiro*
+## Código del libro  
+
 
 Este repositorio contiene **todo el código de ejemplo** del libro  
 **“De la Idea al Código en Minutos con Kiro”** de **Igvir Ramírez V.**
@@ -49,14 +50,11 @@ La organización sigue la estructura del libro:
 /
 ├── images/
 ├── capitulo-01-fundamentos/
-├── capitulo-02-primer-proyecto/
+├── capitulo-02-Instalación de Kiro/
 ├── capitulo-03-spec-driven-basics/
 ├── capitulo-04-proyectos-desde-specs/
 ├── capitulo-05-hooks-introduccion/
 ├── capitulo-06-hooks-avanzados/
 ├── capitulo-07-productividad/
 ├── capitulo-08-mejores-practicas/
-├── capitulo-09-de-prototipo-a-produccion/
-├── capitulo-10-caso-estudio-ecommerce/
-├── capitulo-11-caso-estudio-saas-api/
 └── README.md

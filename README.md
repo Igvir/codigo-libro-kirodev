@@ -4,6 +4,8 @@
 Este repositorio contiene **todo el código de ejemplo** del libro  
 **“De la Idea al Código en Minutos con Kiro”** de **Igvir Ramírez V.**
 
+![Portada](./images/cover.png)
+
 Aquí encontrarás proyectos reales, especificaciones completas y ejemplos prácticos que acompañan cada capítulo del libro y que puedes ejecutar localmente.
 
 📘 Libro: *De la Idea al Código en Minutos con Kiro*  

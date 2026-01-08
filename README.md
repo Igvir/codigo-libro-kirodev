@@ -35,7 +35,7 @@ Este repositorio incluye:
 - 🤖 **Código generado con Kiro**, con comentarios y estructura clara  
 - 🧪 **Casos de prueba y validación**  
 - ▶️ **Instrucciones de instalación y ejecución** por proyecto  
-- 🧠 Ejemplos reales, no snippets aislados
+- 🧠 Ejemplos reales y algunos snippets aislados
 
 Todos los proyectos son **funcionales y probados**.
 

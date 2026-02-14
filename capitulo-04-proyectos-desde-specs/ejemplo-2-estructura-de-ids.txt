@@ -1,0 +1,12 @@
+¿Usamos UUIDs o IDs numéricos auto-incrementales?
+            │
+┌───────────┴───────────┐
+
+UUIDs (v4) Auto-increment
+│                    │
+├─ Seguros para URLs ├─ Más cortos
+├─ Sin colisiones    ├─ Ordenables por tiempo
+├─ Generables en     ├─ Revelan cantidad de
+│ cliente            │ registros (seguridad)
+└─ 36 caracteres     └─ Requieren BD para
+(más pesados) generarse

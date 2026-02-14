@@ -1,0 +1,11 @@
+Paso 1:
+Tú: Crea estructura base del dashboard: layout, sidebar, header
+Kiro: [genera base sólida]
+
+Paso 2:
+Tú: Ahora agrega sección de gráficas de ventas
+Kiro: [genera gráficas, se integran bien con base]
+
+Paso 3:
+Tú: Agrega tabla de productos
+...

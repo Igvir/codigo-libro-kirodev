@@ -1,0 +1,6 @@
+Genera tests de integración para el flujo completo de checkout.
+Considera el spec de carrito, el spec de pagos, y el spec de inventario.
+Simula:
+- Pago exitoso con actualización de inventario
+- Pago fallido sin modificar inventario
+- Timeout del procesador de pagos

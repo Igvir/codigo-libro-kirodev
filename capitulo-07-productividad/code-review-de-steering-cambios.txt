@@ -1,0 +1,19 @@
+## PR: Update Steering - Nueva Convención de Testing
+
+### Checklist del Reviewer
+
+- [ ] ¿El cambio es consistente con decisiones anteriores?
+- [ ] ¿Hay consenso del equipo? (meeting notes, RFC)
+- [ ] ¿Documentación actualizada en docs/?
+- [ ] ¿Ejemplos de código son correctos?
+- [ ] ¿No contradice otros steering files?
+- [ ] ¿Changelog actualizado?
+- [ ] ¿Team notificado del cambio?
+
+### Impacto
+Este cambio afecta a: Backend team, QA team
+Notificar en: #engineering, #testing
+
+### Rollout
+- Nuevo código: usa nueva convención
+- Código existente: migrar gradualmente (no bloqueante)

@@ -1,0 +1,9 @@
+Tú: Muéstrame cómo se vería un dashboard con gráficas de ventas
+
+Kiro: [genera componente con Chart.js]
+
+Tú: Mmm, no me convence. Prueba con algo más minimalista
+
+Kiro: [genera versión alternativa]
+
+Tú: Mejor. Ahora agrega filtros por mes

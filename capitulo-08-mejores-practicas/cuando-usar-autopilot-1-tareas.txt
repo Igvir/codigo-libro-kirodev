@@ -1,0 +1,7 @@
+Tú: Agrega JSDoc comments a todas las funciones en src/utils/
+
+[Autopilot activado]
+
+Kiro: [procesa 20 archivos, agrega JSDoc a 87 funciones]
+
+Kiro: Completado. JSDoc agregado a todos los utils.

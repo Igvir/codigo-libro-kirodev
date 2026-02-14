@@ -1,0 +1,26 @@
+// .kiro/hooks/validate-ci-config.json
+{
+"name": "validate-ci-config",
+"description": "Valida archivos de configuración de CI/CD",
+"trigger": {
+"type": "pre-push"
+},
+"prompt": "Antes de permitir el push:
+
+1. Si hay cambios en .github/workflows/ o .gitlab-ci.yml:
+- Valida sintaxis YAML (detecta tabs vs espacios, indentación)
+- Verifica que jobs referenciados existen
+- Confirma que secrets usados están documentados en README
+- Busca comandos peligrosos (rm -rf sin protección, etc)
+
+2. Si hay cambios en Dockerfile:
+- Verifica que FROM usa tags específicos, no :latest
+- Confirma que hay .dockerignore apropiado
+- Valida que COPY no incluye archivos sensibles
+
+3. Para cualquier script en scripts/ modificado:
+- Verifica que tiene shebang (#!/bin/bash)
+- Confirma que es ejecutable (chmod +x)
+- Busca errores comunes de bash (variables sin quotes, etc)
+
+Si hay problemas, lista cada uno con archivo y línea. Bloquea push si hay errores

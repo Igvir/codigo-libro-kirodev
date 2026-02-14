@@ -1,0 +1,3 @@
+- Usuario puede ver lista de productos cargada desde API
+- Usuario puede agregar nuevo producto y verlo inmediatamente en la lista
+- Lista se actualiza automáticamente cuando hay cambios

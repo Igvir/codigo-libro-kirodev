@@ -1,0 +1,3 @@
+Genera documentación OpenAPI para el módulo de usuarios.
+Incluye ejemplos de request/response basados en los tests.
+Documenta los códigos de error definidos en el spec.

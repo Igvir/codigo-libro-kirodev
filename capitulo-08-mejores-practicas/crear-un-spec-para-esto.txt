@@ -1,0 +1,5 @@
+Tú: Agrega logging a la función sendEmail()
+
+Kiro: [modifica función, agrega logger]
+
+Tú: Perfecto, gracias

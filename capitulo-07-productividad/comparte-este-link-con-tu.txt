@@ -1,0 +1,8 @@
+mi-proyecto/
+├── .kiro/
+│ ├── powers/ # Powers locales del proyecto
+│ │ └── custom-power/
+│ │ └── POWER.md
+│ ├── steering/
+│ └── specs/
+└── src/

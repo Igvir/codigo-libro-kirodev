@@ -1,0 +1,8 @@
+Tú: Crea sistema completo de autenticación
+
+Kiro: [genera auth completo sin tests]
+
+Tú: Perfecto [deploya a producción]
+
+[Semanas después]
+Bug en edge case que tests habrían atrapado

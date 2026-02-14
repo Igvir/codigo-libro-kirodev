@@ -1,0 +1,7 @@
+✓ ¿Di contexto suficiente? (stack, archivos existentes, constraints)
+✓ ¿El prompt es específico? (no vago como "mejora esto")
+✓ ¿Incluí ejemplos concretos si aplica?
+✓ ¿Es un prompt o debería ser varios prompts secuenciales?
+✓ ¿Agregué referencias a código existente (#file)?
+✓ ¿Especifiqué qué NO quiero además de qué SÍ quiero?
+✓ ¿Pedí tests si el código es importante?

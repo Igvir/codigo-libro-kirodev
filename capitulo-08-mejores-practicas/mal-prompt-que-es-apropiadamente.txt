@@ -1,0 +1,13 @@
+Crea función formatDate que:
+
+Input: Date object
+Output: String
+
+Ejemplos:
+- new Date('2026-01-15')  "15 de enero, 2026"
+- new Date('2025-12-25')  "25 de diciembre, 2025"
+
+Debe:
+- Usar nombres de meses en español
+- Formato: "DD de MMMM, YYYY"
+- Manejar fechas inválidas retornando "Fecha inválida"

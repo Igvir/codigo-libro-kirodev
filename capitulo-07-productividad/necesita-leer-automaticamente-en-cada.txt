@@ -1,0 +1,7 @@
+.kiro/
+├── steering.md # Steering base (Tech Lead mantiene)
+├── steering/
+│ ├── backend.md # Backend team mantiene
+│ ├── frontend.md # Frontend team mantiene
+│ ├── devops.md # DevOps mantiene
+│ └── security.md # Security team mantiene

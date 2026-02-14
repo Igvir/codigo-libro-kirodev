@@ -1,0 +1,27 @@
+{
+"name": "compliance-auto-tag",
+"description": "Detecta cambios en código regulado y automatiza compliance review",
+"trigger": { "type": "pre-push" },
+"prompt": "Antes de cada push a cualquier branch:
+
+1. Analiza archivos modificados:
+- Si tocan src/payments/, src/transactions/, o src/kyc/:
+ Marca: REQUIRES_COMPLIANCE_REVIEW
+- Si modifican database/migrations/ con tablas de transacciones:
+ Marca: REQUIRES_DBA_REVIEW + REQUIRES_COMPLIANCE_REVIEW
+
+2. Para cambios marcados:
+- Crea automáticamente checklist en el PR
+- Notifica a #compliance-reviews en Slack
+- Agrega label 'compliance-required' en GitHub
+- Bloquea merge hasta que compliance apruebe
+
+3. Genera audit log automático:
+- Quién modificó qué, timestamp, hash del commit
+- Guarda en compliance-audit-log.json
+
+4. Si es *hotfix* (corrección urgente) (branch empieza con 'hotfix/'):
+- Permite push pero crea ticket de compliance retroactivo
+- Notifica a CTO además de compliance",
+"autoApprove": false
+}

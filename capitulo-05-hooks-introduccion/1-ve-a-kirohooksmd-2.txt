@@ -1,0 +1,10 @@
+### Optimizando Performance de Hooks
+
+Hooks mal configurados pueden ser lentos o consumir muchos créditos:
+
+** Hook ineficiente:**
+```text
+## Trigger: On File Save
+## Pattern: **/*
+
+# Se ejecuta en CADA archivo guardado (miles de veces al día)

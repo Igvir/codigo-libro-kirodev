@@ -1,0 +1,17 @@
+Tú: Crea función de búsqueda en array de productos
+
+Kiro: [genera búsqueda básica con .filter()]
+
+Tú: Mejórala:
+- Insensitive a mayúsculas
+- Busca en name Y description
+- Usa fuzzy matching
+
+Kiro: [mejora algoritmo]
+
+Tú: Optimízala para arrays grandes:
+- Usa debouncing
+- Retorna máximo 50 resultados
+- Agrega memoization
+
+Kiro: [versión optimizada]

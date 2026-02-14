@@ -1,0 +1,13 @@
+router.post('/api/products/:id/variants', authenticate, (req, res) => {
+// Verificar feature flag
+if (!isFeatureEnabled('NEW_PRODUCT_VARIANTS')) {
+return res.status(503).json({
+success: false,
+error: 'feature_not_available',
+message: 'Esta funcionalidad aún no está disponible'
+});
+}
+
+// Lógica de la feature
+// ...
+});

@@ -1,0 +1,6 @@
+Verifica el módulo de autenticación para deploy:
+- ¿Todas las variables de entorno tienen valores por defecto seguros?
+- ¿Los logs no exponen tokens o contraseñas?
+- ¿Hay health checks implementados?
+- ¿El manejo de errores retorna mensajes seguros al cliente?
+- ¿Las dependencias están fijadas a versiones específicas?

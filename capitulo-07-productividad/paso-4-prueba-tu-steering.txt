@@ -1,0 +1,7 @@
+Antes (sin steering):
+Tú: "Crea un formulario de registro"
+Kiro: [Usa axios, any types, inline styles]
+
+Ahora (con steering):
+Tú: "Crea un formulario de registro"
+Kiro: [Usa fetch, types correctos, Tailwind]

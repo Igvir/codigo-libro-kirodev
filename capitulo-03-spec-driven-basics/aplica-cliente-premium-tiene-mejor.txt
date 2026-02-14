@@ -1,0 +1,6 @@
+
+**Ejemplo 2:**
+- Producto: Mouse ($50)
+- Cliente: Nuevo (primera compra)
+- Código promocional: WELCOME20 (20% descuento)
+- Resultado esperado: $50 * 0.80 = $40 (promoción se aplica, cliente nuevo no tiene

@@ -1,0 +1,7 @@
+Cuando se guarda un archivo:
+1. Ejecutar toda la suite de tests (5 minutos)
+2. Generar documentación completa del proyecto (2 minutos)
+3. Hacer build de producción (3 minutos)
+4. Subir a S3 (1 minuto)
+
+# Total: 11 minutos por cada save

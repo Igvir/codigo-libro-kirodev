@@ -1,0 +1,5 @@
+## Trigger: On File Save
+## Pattern: src/**/*.{ts,tsx}
+
+# Solo archivos TypeScript/React en src/
+# Excluye: tests, configs, node_modules

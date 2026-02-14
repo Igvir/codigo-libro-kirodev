@@ -1,0 +1,6 @@
+Revisa este código contra la spec de autenticación.
+Verifica que:
+1. Todos los criterios de aceptación estén implementados
+2. El manejo de errores sea consistente
+3. No haya credenciales hardcodeadas
+4. Los logs no expongan información sensible

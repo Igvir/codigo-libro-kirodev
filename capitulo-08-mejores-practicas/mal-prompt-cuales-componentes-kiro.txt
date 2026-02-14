@@ -1,0 +1,8 @@
+Crea ProductCard.tsx usando el mismo pattern que UserCard.tsx:
+
+#file src/components/UserCard.tsx
+
+Específicamente:
+- Misma estructura de props
+- Mismo estilo de Tailwind
+- Misma lógica de hover effects

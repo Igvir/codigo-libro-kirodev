@@ -1,0 +1,30 @@
+// .kiro/hooks/slack-critical-changes.json
+{
+"name": "slack-critical-changes",
+"description": "Notifica a Slack cuando se modifican archivos críticos",
+"trigger": {
+"type": "post-push"
+},
+"prompt": "Después de cada push a main o production:
+
+1. Identifica si el push modificó archivos críticos:
+- src/payments/
+- src/auth/
+- database/migrations/
+- .env.production
+- docker-compose.prod.yml
+
+2. Si hay cambios críticos:
+- Usa MCP server de Slack para enviar mensaje a #deployments
+- Formato: '@channel [CRÍTICO] {autor} modificó {archivos} en {branch}'
+- Incluye *diff* (diferencias) resumido de cambios importantes
+- Agrega link al commit y al PR si existe
+
+3. Si son cambios normales:
+- No notifiques (evita *spam*)
+
+4. Si son cambios a migrations/:
+- Notificación extra: verifica que existe *rollback* (reversión) de migration
+- Si no existe, alerta en #deployments y bloquea *deploy* (despliegue)",
+"autoApprove": true
+}

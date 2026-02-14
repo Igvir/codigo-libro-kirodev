@@ -1,0 +1,6 @@
+Tú: Cambiamos de REST a GraphQL
+
+Kiro: [hace cambios]
+
+Tú: Actualiza requirements.md y design.md para reflejar
+que ahora usamos GraphQL

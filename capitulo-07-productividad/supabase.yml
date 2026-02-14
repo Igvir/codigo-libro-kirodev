@@ -1,0 +1,14 @@
+---
+name: "supabase"
+displayName: "Supabase Database & Auth"
+description: "Base de datos Postgres, auth, storage, y realtime"
+keywords:
+- database
+- postgres
+- supabase
+- auth
+- rls
+- row level security
+- storage
+- realtime
+---

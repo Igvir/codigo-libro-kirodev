@@ -1,0 +1,21 @@
+### Cálculo de Descuentos por Cliente
+
+| Tipo Cliente | Monto Orden | Historial Compras | Descuento | Envío Gratis |
+|--------------|-------------|-------------------|-----------|--------------|
+| Premium | >$500 | >10 órdenes | 15% | Sí |
+| Premium | >$500 | 5-10 órdenes | 12% | Sí |
+| Premium | >$500 | <5 órdenes | 10% | Sí |
+| Premium | $100-$500 | Cualquiera | 8% | No |
+| Premium | <$100 | Cualquiera | 5% | No |
+| Standard | >$1000 | >20 órdenes | 10% | Sí |
+| Standard | >$1000 | 10-20 órdenes | 8% | Sí |
+| Standard | >$1000 | <10 órdenes | 5% | Sí |
+| Standard | $200-$1000 | >10 órdenes | 3% | No |
+| Standard | $200-$1000 | <10 órdenes | 0% | No |
+| Standard | <$200 | Cualquiera | 0% | No |
+| Nuevo | Cualquiera | Primera orden | 10% | Si >$50 |
+
+**Reglas adicionales:**
+- Descuentos no se acumulan con promociones activas
+- Envío gratis solo aplica a direcciones nacionales
+- Clientes Premium mantienen status por 12 meses desde última compra

@@ -1,0 +1,9 @@
+Tú: Generaste código con axios pero usamos fetch. ¿Por qué?
+
+Kiro: Mis disculpas. No encontré en el steering o contexto
+actual que prefieren fetch sobre axios.
+¿Debo actualizar el código para usar fetch?
+
+Tú: Sí. Y agrega esto al steering para que no se repita.
+
+Kiro: Actualizando código a fetch y agregando nota al steering...

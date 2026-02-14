@@ -1,0 +1,10 @@
+mi-proyecto/
+├── .kiro/
+│ ├── hooks/
+│ │ ├── auto-test.md
+│ │ ├── update-docs.md
+│ │ ├── security-scan.md
+│ │ └── commit-message.md
+│ ├── specs/
+│ └── steering/
+└── src/

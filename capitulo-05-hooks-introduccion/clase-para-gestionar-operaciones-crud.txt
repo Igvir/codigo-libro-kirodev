@@ -1,0 +1,1 @@
+new UserManager(db: Database, auth: AuthService)

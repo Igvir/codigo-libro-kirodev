@@ -1,0 +1,9 @@
+docs/
+├── architecture/
+│ └── overview.md # Documentación tradicional
+├── api/
+│ └── openapi.yaml # Generada desde specs
+└── specs/ #  TUS SPECS VIVEN AQUÍ
+├── user-auth.md
+├── payment-processing.md
+└── inventory-management.md

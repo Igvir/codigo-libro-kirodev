@@ -1,0 +1,5 @@
+Necesito la funcionalidad para crear notas nuevas. Cada nota
+debe tener un título, contenido de texto, y fecha de creación.
+El usuario debe poder ver una lista de todas sus notas ordenadas
+por fecha (más reciente primero). Las notas deben persistir en
+localStorage para que no se pierdan al cerrar el navegador.

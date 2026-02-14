@@ -1,0 +1,4 @@
+Tú: Mejora performance del dashboard:
+- Lazy load las gráficas pesadas
+- Cachea data del API por 5 minutos
+- Usa React.memo en componentes que re-renderizan innecesariamente

@@ -1,0 +1,9 @@
+// Primero: Tests de conformidad a spec (si aplica)
+describe('Spec Compliance - ...', () => { ... });
+
+// Segundo: Tests de implementación
+describe('[FunctionName]', () => {
+describe('casos de éxito', () => { ... });
+describe('validaciones', () => { ... });
+describe('edge cases', () => { ... });
+});

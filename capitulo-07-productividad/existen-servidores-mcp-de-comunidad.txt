@@ -1,0 +1,12 @@
+Tú: Implementa el nuevo servicio de notificaciones
+
+Kiro: Antes de empezar, voy a buscar documentación...
+[Consulta MCP Confluence]
+
+Encontré "Arquitectura de Servicios v2.0" que define:
+- Todos los servicios deben extender BaseService
+- Usar patrón Repository para DB access
+- Implementar interface INotificationService
+- Logging con Winston, no console.log
+
+Generaré código siguiendo estos patterns...

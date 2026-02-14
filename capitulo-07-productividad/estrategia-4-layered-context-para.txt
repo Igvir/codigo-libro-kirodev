@@ -1,0 +1,13 @@
+monorepo/
+├── .kiro/
+│ └── steering.md # Steering base del monorepo
+├── packages/
+│ ├── web-app/
+│ │ └── .kiro/
+│ │ └── steering.md # Steering específico de web app
+│ ├── mobile-app/
+│ │ └── .kiro/
+│ │ └── steering.md # Steering específico de mobile
+│ └── shared/
+│ └── .kiro/
+│ └── steering.md # Steering de código compartido

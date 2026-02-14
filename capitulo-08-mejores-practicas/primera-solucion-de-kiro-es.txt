@@ -1,0 +1,12 @@
+Tú: Crea componente de tabla con sorting
+
+Kiro: [genera tabla básica]
+
+Tú: Funciona, pero:
+1. Extrae lógica de sorting a custom hook
+2. Usa useMemo para data procesada
+3. Agrega loading state
+
+Kiro: [refactoriza con mejoras]
+
+Tú: Mucho mejor, gracias

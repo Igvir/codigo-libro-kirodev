@@ -1,0 +1,7 @@
+Kiro: Advertencia: Este cambio modificará 47 archivos.
+¿Seguro que quieres continuar?
+
+Tú: Sí sí, adelante [sin leer la advertencia]
+
+[30 minutos después]
+Tú: ¿Por qué se rompió todo el proyecto?

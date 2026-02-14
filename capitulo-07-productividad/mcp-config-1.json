@@ -1,0 +1,12 @@
+{
+"mcpServers": {
+"confluence": {
+"command": "node",
+"args": ["mcp-servers/confluence-server.js"],
+"env": {
+"CONFLUENCE_URL": "https://company.atlassian.net/wiki",
+"CONFLUENCE_TOKEN": "${CONFLUENCE_TOKEN}"
+}
+}
+}
+}

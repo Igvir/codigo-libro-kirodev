@@ -1,0 +1,28 @@
+{
+"name": "performance-budget",
+"description": "Valida que cambios no degradan performance más allá del budget",
+"trigger": { "type": "pre-push" },
+"prompt": "Antes de permitir push a main:
+
+1. Para cambios de frontend:
+- Corre npm run build
+- Compara tamaño de bundles con *baseline* (línea base)
+- *Budget*: Bundle no puede crecer >10KB sin justificación
+
+2. Para cambios de backend:
+- Identifica endpoints modificados
+- *Benchmark*: 100 requests, mide p50, p95, p99
+- *Budget*: p95 no puede aumentar >50ms
+
+3. Para queries de DB modificadas:
+- Usa EXPLAIN ANALYZE en cada query
+- Detecta full table scans o queries sin índices
+- Bloquea si query toma >100ms en DB de test
+
+4. Si se excede *budget*:
+- Muestra *diff*: 'Bundle creció 15KB (presupuesto: 10KB)'
+- Pide justificación
+- Permite override con flag --no-verify (requiere senior)
+- Notifica a #performance en Slack",
+"autoApprove": false
+}

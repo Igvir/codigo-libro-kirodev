@@ -1,0 +1,6 @@
+Genera tests unitarios para el servicio de notificaciones.
+Usa los criterios de aceptación del spec como casos base.
+Agrega edge cases para:
+- Usuarios sin dispositivos registrados
+- Tokens expirados
+- Rate limiting alcanzado

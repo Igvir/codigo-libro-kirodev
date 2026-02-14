@@ -1,0 +1,12 @@
+Tú: ¿Qué MCP servers tengo conectados?
+
+Kiro: Tienes 3 servidores MCP configurados:
+
+postgres - Conectado
+Tools: query, list_tables, describe_table
+
+gitlab - Conectado
+Tools: get_issue, list_project_issues, create_issue...
+
+aws-docs - Error de conexión
+Error: "uvx: command not found"

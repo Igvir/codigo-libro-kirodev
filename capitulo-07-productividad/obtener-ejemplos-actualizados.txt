@@ -1,0 +1,29 @@
+Tú: Muéstrame cómo configurar una función Lambda con
+acceso a VPC según la documentación actual
+
+Kiro: [Lee documentación de Lambda VPC via MCP]
+
+Según la documentación oficial, aquí está la configuración
+recomendada para Lambda en VPC:
+
+// serverless.yml (Serverless Framework)
+functions:
+myFunction:
+handler: handler.main
+vpc:
+securityGroupIds:
+- sg-xxxxxxxx
+subnetIds:
+- subnet-xxxxxxxx # Private subnet 1
+- subnet-yyyyyyyy # Private subnet 2
+
+Consideraciones importantes de la documentación:
+1. Usa al menos 2 subnets en diferentes AZs
+2. Las subnets deben ser PRIVADAS (no public)
+3. Para acceso a internet, necesitas NAT Gateway
+4. El rol de Lambda necesita:
+- ec2:CreateNetworkInterface
+- ec2:DescribeNetworkInterfaces
+- ec2:DeleteNetworkInterface
+
+¿Genero el código completo con estos permisos?

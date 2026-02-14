@@ -1,0 +1,17 @@
+
+### Hook de Commit Message
+
+```text
+# Generar Commit Messages Inteligentes
+
+## Trigger: Manual
+
+Ejecutar este hook manualmente antes de hacer commit.
+
+**Objetivo:** Generar commit message descriptivo basado en los cambios actuales.
+
+**Proceso:**
+
+1. **Analizar cambios staged:**
+```bash
+git diff --staged

@@ -1,0 +1,4 @@
+1. Vibe coding rápido para llegar a algo funcional
+2. Una vez que funciona y sabes qué quieres
+3. Pides a Kiro: "Documenta esto como spec"
+4. Kiro genera requirements.md basado en código existente

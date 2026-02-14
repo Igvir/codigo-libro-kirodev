@@ -1,0 +1,3 @@
+El spec de notificaciones menciona "respetar preferencias de horario".
+¿Estamos verificando la zona horaria del usuario o la del servidor?
+Muéstrame dónde se hace esa validación.

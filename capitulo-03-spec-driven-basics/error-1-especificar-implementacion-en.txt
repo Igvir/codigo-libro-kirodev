@@ -1,0 +1,3 @@
+- Crear un useState para manejar la lista de productos
+- Usar useEffect para hacer fetch de datos al montar
+- Implementar función handleAddProduct que haga push al array

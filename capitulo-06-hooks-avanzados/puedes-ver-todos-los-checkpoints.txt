@@ -1,0 +1,9 @@
+Checkpoint: "Agregar validación a endpoints" (hace 5 min)
+└── src/api/users.ts (+45, -12)
+└── src/api/products.ts (+38, -8)
+└── src/middleware/validate.ts (nuevo)
+└── tests/api/users.test.ts (+120)
+
+Checkpoint: "Configurar ESLint" (hace 20 min)
+└── .eslintrc.js (nuevo)
+└── package.json (+3, -0)

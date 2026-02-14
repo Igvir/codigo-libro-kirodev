@@ -1,0 +1,5 @@
+<tipo>(<scope>): <descripción corta>
+
+<cuerpo del mensaje - opcional>
+
+<footer - opcional>

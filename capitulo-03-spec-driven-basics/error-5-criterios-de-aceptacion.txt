@@ -1,0 +1,6 @@
+- [ ] Carga inicial de productos < 2 segundos
+- [ ] Búsqueda responde en < 500ms
+- [ ] Diseño responsive funciona en móviles 320px+
+- [ ] Contraste de colores cumple WCAG AA (4.5:1 mínimo)
+- [ ] Componentes tienen máximo 200 líneas de código
+- [ ] Funciones tienen máximo 20 líneas

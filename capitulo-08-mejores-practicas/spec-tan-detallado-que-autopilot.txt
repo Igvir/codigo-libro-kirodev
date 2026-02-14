@@ -1,0 +1,6 @@
+Tú: Genera CRUD completo para entidad "Invoice"
+(ya tenemos CRUDs para User, Product que sirven de template)
+
+[Autopilot]
+
+Kiro: [copia pattern de User CRUD, lo adapta a Invoice]

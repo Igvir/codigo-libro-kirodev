@@ -1,0 +1,16 @@
+## Changelog de Steering
+
+### 2026-01-15: Migración a Prisma
+- Cambiamos de TypeORM a Prisma
+- Actualizado: sección de Database
+- Deprecated: patterns de TypeORM (ver migrations/typeorm-to-prisma.md)
+
+### 2025-12-01: Nuevo componente de design system
+- Agregado: sección de UI Components
+- Ahora usamos @acme/design-system para todos los componentes
+- NO crear componentes custom sin consultar con Design team
+
+### 2025-11-10: Testing strategy update
+- Cambiamos de Enzyme a React Testing Library
+- Actualizado: sección de Testing
+- TODO: migrar tests existentes (ver issue #234)

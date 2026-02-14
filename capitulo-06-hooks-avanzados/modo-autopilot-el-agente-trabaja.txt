@@ -1,0 +1,5 @@
+Tú: "Agrega validación de entrada a todos los endpoints de la API"
+
+Kiro: [Modifica 12 archivos] [Ejecuta tests] [Actualiza documentación]
+"Listo. He agregado validación a 12 endpoints, todos los
+tests pasan, y actualicé la documentación de la API."

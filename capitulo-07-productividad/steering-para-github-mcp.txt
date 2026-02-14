@@ -1,0 +1,10 @@
+## GitHub Integration (vía MCP)
+
+Para tareas relacionadas con repo:
+- Buscar issues relevantes antes de implementar features
+- Crear issues para bugs encontrados durante desarrollo
+- Verificar historial de cambios en módulos críticos
+
+Antes de refactoring grande:
+"¿Qué PRs recientes tocaron este módulo?"
+Kiro puede mostrarte cambios relacionados vía MCP.

@@ -1,0 +1,8 @@
+## Trigger: On File Save
+
+Proceso:
+1. Log: "Iniciando análisis de [nombre de archivo]"
+2. Analizar funciones exportadas
+3. Log: "Encontradas X funciones: [nombres]"
+4. Generar tests
+5. Log: "Tests generados en [ubicación]"

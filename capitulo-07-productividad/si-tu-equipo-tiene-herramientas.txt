@@ -1,0 +1,8 @@
+mi-power/
+├── POWER.md # Instrucciones y frontmatter con keywords
+├── mcp.json # Configuración de MCP servers (opcional)
+├── steering/ # Archivos de steering adicionales
+│ ├── conventions.md
+│ └── patterns.md
+└── hooks/ # Hooks predefinidos (opcional)
+└── validate.kiro.hook

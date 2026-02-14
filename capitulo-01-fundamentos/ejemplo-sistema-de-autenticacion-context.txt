@@ -1,0 +1,34 @@
+Implementar autenticación JWT en Express:
+
+UBICUO:
+- El sistema tendrá endpoints POST /auth/register y POST /auth/login
+- El sistema almacenará usuarios en un array (mock, no DB real aún)
+- Las contraseñas se hashearán con bcrypt
+- El secret del JWT estará en variable de entorno
+- El middleware de verificación estará en archivo separado
+
+CUANDO (registro):
+- When un usuario envíe datos a /auth/register,
+the sistema shall validar email con regex
+- When un usuario envíe datos a /auth/register,
+the sistema shall validar que la contraseña tenga mínimo 6 caracteres
+- When las validaciones pasen,
+the sistema shall hashear la contraseña y crear el usuario
+
+SI (errores de registro):
+- If el email es inválido,
+then the sistema shall retornar error 400 "Email inválido"
+- If la contraseña es menor a 6 caracteres,
+then the sistema shall retornar error 400 "Password debe tener mínimo 6 caracteres"
+- If el usuario ya existe,
+then the sistema shall retornar error 409 "Usuario ya existe"
+
+CUANDO (login):
+- When un usuario envíe credenciales a /auth/login,
+the sistema shall buscar el usuario por email
+- When las credenciales sean válidas,
+the sistema shall generar un token JWT con userId y email
+
+SI (errores de login):
+- If el usuario no existe o la contraseña es incorrecta,
+then the sistema shall retornar error 401 "Credenciales inválidas"

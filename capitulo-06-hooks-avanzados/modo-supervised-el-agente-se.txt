@@ -1,0 +1,11 @@
+Tú: "Agrega validación de entrada a todos los endpoints de la API"
+
+Kiro: "Voy a modificar src/api/users.ts para agregar validación.
+¿Procedo?"
+
+Tú: [Revisa diff] [Aprueba]
+
+Kiro: "Completado. Ahora modificaré src/api/products.ts.
+¿Procedo?"
+
+[...y así sucesivamente]

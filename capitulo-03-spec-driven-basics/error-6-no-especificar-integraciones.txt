@@ -1,0 +1,3 @@
+- Enviar emails usando SendGrid API v3 con template ID específico
+- Procesar pagos con Stripe Payment Intents API (no Charges legacy)
+- Subir imágenes a AWS S3 con presigned URLs, máximo 5MB, formatos JPG/PNG

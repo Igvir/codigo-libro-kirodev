@@ -1,0 +1,24 @@
+# .pre-commit-config.yaml
+repos:
+- repo: local
+hooks:
+# Verificar que existe spec para código nuevo
+- id: check-spec-exists
+name: Verify spec exists for new features
+entry: ./scripts/check-spec-exists.sh
+language: script
+files: ^src/features/
+
+# Lint normal (no cambia)
+- id: eslint
+name: ESLint
+entry: npx eslint
+language: system
+files: \.(js|ts|jsx|tsx)$
+
+# Tests deben pasar (no cambia)
+- id: test
+name: Run tests
+entry: npm test
+language: system
+pass_filenames: false

@@ -1,0 +1,6 @@
+Power: Stripe
+Incluye:
+├── MCP server conectado a API de Stripe (test mode)
+├── Steering con patrones de checkout seguros
+├── Validación de manejo de webhooks
+└── Guías de PCI compliance

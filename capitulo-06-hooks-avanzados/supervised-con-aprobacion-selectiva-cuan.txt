@@ -1,0 +1,6 @@
+Kiro propone modificar:
+├── src/api/users.ts [Accept] [Reject]
+├── src/api/products.ts [Accept] [Reject]
+└── src/utils/auth.ts [Accept] [Reject]
+
+[Accept All] [Reject All]

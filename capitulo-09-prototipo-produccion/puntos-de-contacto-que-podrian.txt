@@ -1,0 +1,5 @@
+Genera un plan de rollback para el deploy de v2.3.0:
+- Pasos para revertir cambios de código
+- Script para revertir migración de base de datos
+- Endpoints que necesitan invalidación de cache
+- Notificaciones necesarias al equipo de soporte

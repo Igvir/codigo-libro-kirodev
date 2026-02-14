@@ -1,0 +1,14 @@
+Tú: Necesito función calculateDiscount. Primero genera los tests:
+
+Tests deben validar:
+- 10% discount para orders >$100
+- 20% discount para orders >$500
+- No discount para orders <$100
+- Handles edge case: $100 exacto (no discount)
+- Handles edge case: $500 exacto (20% discount)
+
+Kiro: [genera test suite]
+
+Tú: Perfecto. Ahora implementa calculateDiscount que pase esos tests.
+
+Kiro: [genera implementación correcta]

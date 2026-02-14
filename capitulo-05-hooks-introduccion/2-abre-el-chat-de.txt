@@ -1,0 +1,9 @@
+Analizando cambios staged...
+
+Archivos modificados:
+- src/auth/password-validator.ts (nuevo)
+- src/auth/index.ts (modificado)
+- __tests__/auth/password-validator.test.ts (nuevo)
+
+Tipo detectado: feat
+Scope: auth

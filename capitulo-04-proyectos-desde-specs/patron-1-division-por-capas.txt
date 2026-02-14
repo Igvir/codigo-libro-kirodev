@@ -1,0 +1,28 @@
+**Proyecto: Sistema de órdenes de compra**
+
+**Desarrollador A - Gestión de Proveedores:**
+- Spec: `/specs/features/suppliers.md`
+- Responsable de:
+- CRUD de proveedores
+- API endpoints: `/api/suppliers/*`
+- Componentes: `SupplierList`, `SupplierForm`
+- Migraciones de BD para tabla `suppliers`
+
+**Desarrollador B - Creación de Órdenes:**
+- Spec: `/specs/features/purchase-orders.md`
+- Responsable de:
+- CRUD de órdenes de compra
+- API endpoints: `/api/purchase-orders/*`
+- Componentes: `OrderList`, `OrderForm`
+- Migraciones de BD para tablas `purchase_orders`, `order_items`
+
+**Desarrollador C - Recepción y Control:**
+- Spec: `/specs/features/receiving.md`
+- Responsable de:
+- Flujo de recepción de mercancía
+- API endpoints: `/api/receiving/*`
+- Componentes: `ReceivingQueue`, `ReceiveItems`
+- Actualización de stock en tabla `inventory`
+
+**Punto de integración:** Todos usan el contrato compartido
+`/specs/shared/supplier-contract.md` que define la estructura de proveedor.

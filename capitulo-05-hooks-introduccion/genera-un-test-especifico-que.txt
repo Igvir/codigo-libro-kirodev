@@ -1,0 +1,7 @@
+describe('Spec Compliance - [Nombre de Requirement]', () => {
+it('debe [comportamiento del criterio EARS]', () => {
+// Setup que simule la [condición]
+// Ejecutar código
+// Validar que [comportamiento] ocurrió
+});
+});

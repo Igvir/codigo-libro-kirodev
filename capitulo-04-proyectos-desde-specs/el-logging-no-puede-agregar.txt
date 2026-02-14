@@ -1,0 +1,18 @@
+Costo de cambiar una decisión
+
+│
+$$$$$ │
+│
+│
+$$$$ │
+│
+│
+$$$ │
+│
+│
+$$ │
+│
+$ └─────────────────────────────────
+Spec Design Código QA Producción
+
+Momento en que se descubre que la decisión era incorrecta

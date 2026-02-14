@@ -1,0 +1,5 @@
+Analiza el impacto del cambio en el schema de usuarios:
+- ¿Qué endpoints se ven afectados?
+- ¿Hay queries que necesiten actualizarse?
+- ¿La migración es reversible?
+- ¿Qué servicios downstream podrían romperse?

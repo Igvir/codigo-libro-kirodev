@@ -1,0 +1,3 @@
+Cuando guarde un archivo TypeScript en src/,
+genera tests en __tests__/ que cubran los casos
+principales y edge cases

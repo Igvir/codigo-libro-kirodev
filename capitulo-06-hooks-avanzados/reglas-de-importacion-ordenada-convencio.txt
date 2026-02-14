@@ -1,0 +1,5 @@
+Crea un servicio de autenticación con JWT.
+El proyecto usa:
+- ESLint con Airbnb config
+- Prettier con single quotes
+- Import sorting automático

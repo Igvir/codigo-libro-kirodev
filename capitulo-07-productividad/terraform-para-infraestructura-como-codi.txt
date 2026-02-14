@@ -1,0 +1,6 @@
+Power: Terraform
+Incluye:
+├── MCP server con acceso a registry y documentación
+├── Steering con convenciones de HCL
+├── Validación de seguridad pre-apply
+└── Integración con AWS/GCP/Azure providers

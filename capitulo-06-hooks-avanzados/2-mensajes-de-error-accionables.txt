@@ -1,0 +1,17 @@
+Commit blocked: Missing tests for new endpoints
+
+Files modified:
+• src/api/users.ts (new endpoint: POST /users)
+
+Action required:
+1. Create test file: tests/api/users.test.ts
+2. Add integration test for POST /users
+
+Example test:
+describe('POST /users', () => {
+it('creates user with valid data', async () => {
+// ... test code
+});
+});
+
+Run: npm run test:generate-template users

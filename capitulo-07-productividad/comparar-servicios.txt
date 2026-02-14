@@ -1,0 +1,26 @@
+Tú: Para mi caso de uso de cola de mensajes con orden
+garantizado, ¿qué me conviene: SQS FIFO o Kinesis?
+
+Kiro: [Consulta documentación de ambos servicios]
+
+Basándome en la documentación oficial, aquí está la comparación:
+
+| Aspecto | SQS FIFO | Kinesis |
+|---------|----------|---------|
+| Orden | Garantizado por grupo | Por shard |
+| Throughput | 3K-70K msg/seg | 1 MB/seg por shard |
+| Retención | Hasta 14 días | Hasta 365 días |
+| Consumers | 1 por mensaje | Múltiples simultáneos |
+| Replay | No nativo | Sí, desde cualquier punto |
+| Costo | Por mensaje | Por hora de shard |
+
+**Recomendación según tu caso:**
+
+Si necesitas:
+- Procesamiento exactamente-una-vez  SQS FIFO
+- Múltiples consumidores del mismo mensaje  Kinesis
+- Replay/reprocessing de mensajes  Kinesis
+- Menor complejidad operacional  SQS FIFO
+- Alto throughput sostenido  Kinesis
+
+¿Cuál se acerca más a tu caso de uso?

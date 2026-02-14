@@ -1,0 +1,16 @@
+Kiro: Voy a crear estos archivos:
+- src/components/Dashboard.tsx
+- src/hooks/useDashboardData.ts
+
+¿Procedo?
+
+Tú: Sí
+
+Kiro: [crea archivos]
+
+Kiro: Ahora voy a modificar src/App.tsx para importar Dashboard.
+¿Procedo?
+
+Tú: Espera, mejor importalo en src/pages/admin.tsx
+
+Kiro: Entendido. [modifica admin.tsx en lugar de App.tsx]

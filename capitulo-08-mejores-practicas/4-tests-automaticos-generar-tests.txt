@@ -1,0 +1,5 @@
+Tú: Genera tests unitarios para todos los utils
+
+[Autopilot]
+
+Kiro: [analiza cada función, genera tests apropiados]

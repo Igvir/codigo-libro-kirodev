@@ -1,0 +1,26 @@
+// .kiro/hooks/sync-jira-on-commit.json
+{
+"name": "sync-jira-on-commit",
+"description": "Actualiza tickets de Jira cuando commiteas código relacionado",
+"trigger": {
+"type": "post-commit"
+},
+"prompt": "Después de cada commit:
+
+1. Extrae números de ticket de Jira del mensaje de commit
+- Formato esperado: 'PROJ-123: descripción del cambio'
+- Puede haber múltiples tickets en un commit
+
+2. Para cada ticket encontrado:
+- Usa el MCP server de Jira para agregar comentario automático
+- Incluye link al commit en GitHub
+
+3. Si el commit menciona 'fixes' o 'closes':
+- Transiciona el ticket a 'In Review' automáticamente
+
+4. Si no hay tickets en el mensaje:
+- No hagas nada (commits sin ticket son válidos para refactors, docs, etc)
+
+Reporta cuántos tickets fueron actualizados.",
+"autoApprove": true
+}

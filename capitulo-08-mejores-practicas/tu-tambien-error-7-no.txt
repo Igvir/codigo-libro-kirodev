@@ -1,0 +1,3 @@
+Kiro: [genera 300 líneas de código]
+
+Tú: [git commit sin leer ni ejecutar]

@@ -1,0 +1,28 @@
+### Estados de Orden de Compra
+
+**Estados posibles:**
+- Draft: Orden creada pero no enviada
+- Submitted: Enviada para aprobación
+- Approved: Aprobada por manager
+- Ordered: Enviada a proveedor
+- Delivered: Productos recibidos
+- Cancelled: Cancelada en cualquier momento
+- Rejected: Rechazada por manager
+
+**Transiciones permitidas:**
+- Draft  Submitted (cuando todos los campos requeridos están completos)
+- Draft  Cancelled (por creador únicamente)
+- Submitted  Approved (por manager con presupuesto suficiente)
+- Submitted  Rejected (por manager con razón obligatoria)
+- Submitted  Cancelled (por creador únicamente)
+- Approved  Ordered (automático si proveedor tiene API, manual si no)
+- Approved  Cancelled (por manager o admin únicamente)
+- Ordered  Delivered (cuando se confirma recepción)
+- Ordered  Cancelled (solo si proveedor permite, con fee)
+
+**Reglas de negocio:**
+- Solo creador puede editar orden en estado Draft
+- Manager debe aprobar órdenes >$1,000
+- Director debe aprobar órdenes >$10,000
+- Órdenes canceladas después de Ordered incurren fee del 10%
+- Órdenes en Delivered no pueden cancelarse

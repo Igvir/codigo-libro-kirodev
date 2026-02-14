@@ -1,0 +1,15 @@
+En el chat con Kiro:
+
+Tú: ¿Qué archivos tienes en contexto ahora?
+
+Kiro: Actualmente tengo en contexto:
+- src/components/UserForm.tsx
+- src/types/User.ts
+
+Tú: Ah, te falta src/services/api.ts que tiene la función
+para guardar usuarios. Incluye eso.
+
+#file src/services/api.ts
+
+Kiro: Perfecto, ahora veo que ya existe saveUser() en api.ts.
+Actualizaré el código para usar esa función...

@@ -1,0 +1,25 @@
+<!-- .kiro/steering/mcp-guidelines.md -->
+---
+inclusion: always
+---
+
+# Guías de Uso de MCP Servers
+
+## PostgreSQL (postgres)
+
+- SIEMPRE verificar schema antes de generar código con DB
+- NUNCA ejecutar queries destructivas sin confirmación explícita
+- Para exploración, agregar `LIMIT 100` por defecto
+- Preferir `EXPLAIN ANALYZE` antes de queries complejas en producción
+
+## GitLab (gitlab)
+
+- Al crear specs desde issues, preservar los acceptance criteria originales
+- Formato de commits: "feat(#123): descripción" para auto-link
+- Actualizar issues al completar tareas relacionadas
+
+## AWS Documentation (aws-docs)
+
+- Verificar que la info es de la región correcta (us-east-1 vs otras)
+- Para límites y cuotas, siempre consultar antes de diseñar
+- Preferir ejemplos en TypeScript cuando estén disponibles

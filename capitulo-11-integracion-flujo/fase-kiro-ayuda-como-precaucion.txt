@@ -1,0 +1,32 @@
+┌─────────────────────────────────────────────────────────────┐
+│ FLUJO CON KIRO INTEGRADO │
+├─────────────────────────────────────────────────────────────┤
+│ │
+│ 1. Ticket/Historia │
+│ │ │
+│  │
+│ 2. Diseño/Discusión ── (Sin cambios - trabajo humano) │
+│ │ │
+│  │
+│ ┌─────────────────────────────────────┐ │
+│ │ 2.5 SPEC WRITING (NUEVO) │ │
+│ │ - Traducir diseño a specs │ │
+│ │ - Definir contratos │ │
+│ │ - Documentar edge cases │ │
+│ └─────────────────────────────────────┘ │
+│ │ │
+│  │
+│ 3. Implementación + Kiro │
+│ │ │
+│  │
+│ 4. Tests (Kiro genera, humano valida) │
+│ │ │
+│  │
+│ 5. Code Review ── (Más importante que nunca) │
+│ │ │
+│  │
+│ │ │
+│  │
+│ 7. Deploy │
+│ │
+└─────────────────────────────────────────────────────────────┘

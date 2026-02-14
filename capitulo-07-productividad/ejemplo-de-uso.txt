@@ -1,0 +1,18 @@
+Tú: ¿Hay issues abiertos sobre el módulo de autenticación?
+
+Kiro: [Consulta GitHub vía MCP]
+
+Encontré 3 issues relacionados:
+- #142: "Login timeout en Safari" (abierto hace 2 días)
+- #138: "2FA no funciona con SMS" (abierto hace 1 semana)
+- #120: "Refresh tokens expiran muy rápido" (abierto hace 2 semanas)
+
+¿Quieres que revise el código relacionado con alguno?
+
+Tú: Sí, revisa el código del issue #142
+
+Kiro: [Busca archivos modificados en PRs relacionados]
+[Lee el código actual de autenticación]
+
+El timeout parece estar en src/auth/loginHandler.ts.
+El fetch no tiene timeout configurado...

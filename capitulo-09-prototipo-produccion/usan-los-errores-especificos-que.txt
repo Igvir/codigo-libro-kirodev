@@ -1,0 +1,6 @@
+Genera un documento de arquitectura para el módulo de e-commerce.
+Muestra:
+- Diagrama de componentes y sus responsabilidades
+- Flujo de datos entre servicios
+- Decisiones de diseño clave (extraídas de los specs)
+- Dependencias externas

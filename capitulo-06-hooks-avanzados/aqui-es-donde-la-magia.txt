@@ -1,0 +1,12 @@
+1. Defines spec con requirements claros
+2. Kiro genera design y task list
+3. Revisas y apruebas el plan
+4. Haces clic en "Run all tasks"
+5. Kiro genera código para tarea 1
+6. LSP reporta diagnósticos
+7. Kiro corrige automáticamente
+8. PBTs validan que cumple el spec
+9. Pasa a tarea 2 con código limpio
+10. Repite hasta tarea N
+11. Hooks post-save generan tests y docs
+12. Resultado: proyecto completo, código sin errores, documentado

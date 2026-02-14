@@ -1,0 +1,12 @@
+Semana 1-2: Solo Supervised
+└── Todos revisan cada cambio
+└── Construyen intuición de qué genera Kiro
+└── Identifican patrones buenos y malos
+
+Semana 3-4: Supervised + Autopilot selectivo
+└── Autopilot para tareas de bajo riesgo
+└── Supervised para código de producción
+
+Mes 2+: Estrategia híbrida completa
+└── Cada developer elige según la tarea
+└── Code review sigue siendo obligatorio

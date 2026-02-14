@@ -1,0 +1,2 @@
+Kiro: "Ahora voy a analizar tu codebase y diseñar la
+arquitectura técnica para estas features. Dame un momento."

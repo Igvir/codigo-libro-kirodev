@@ -1,0 +1,6 @@
+Semana 1: Creas spec perfecto, Kiro genera código
+Semana 3: Agregas features con vibe coding
+Semana 5: Refactorizas arquitectura
+Semana 8: Spec está completamente desactualizado
+
+Nuevo developer lee el spec: "¿Por qué nada coincide?"

@@ -1,0 +1,13 @@
+TODO Comments Processed
+
+Found 2 new TODOs:
+
+Created: PROJ-1234 - "Refactorizar función en auth.ts:42"
+Priority: P1
+Link: https://jira.company.com/browse/PROJ-1234
+
+Created: PROJ-1235 - "Agregar validación de email"
+Priority: P2 (default)
+Link: https://jira.company.com/browse/PROJ-1235
+
+Updated comments in file with issue tracking IDs.

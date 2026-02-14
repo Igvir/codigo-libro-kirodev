@@ -1,0 +1,6 @@
+fix(checkout): prevent duplicate order submissions
+
+Users could click "Pay" multiple times causing duplicate charges.
+Now button is disabled after first click and re-enabled only on error.
+
+Fixes: #231

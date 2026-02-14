@@ -1,0 +1,17 @@
+## Stack de mi proyecto:
+
+**Frontend:**
+- Framework: [ej: React, Vue, Angular, Svelte]
+- Lenguaje: [ej: TypeScript, JavaScript]
+- Estado: [ej: Redux, Zustand, Context API]
+- Styling: [ej: Tailwind, CSS Modules, styled-components]
+
+**Backend (si aplica):**
+- Runtime: [ej: Node.js, Deno, Bun]
+- Framework: [ej: Express, Fastify, NestJS]
+- Database: [ej: PostgreSQL, MySQL, MongoDB]
+- ORM: [ej: Prisma, TypeORM, Drizzle]
+
+**Testing:**
+- Framework: [ej: Jest, Vitest, Playwright]
+- Para: [ej: Unit tests, E2E, Integration]

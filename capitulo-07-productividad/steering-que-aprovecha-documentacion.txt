@@ -1,0 +1,17 @@
+## Documentación del Proyecto
+
+### Antes de empezar cualquier feature:
+Lee docs/architecture/overview.md para entender big picture.
+
+### Por módulo:
+- Auth: docs/modules/auth/README.md
+- Payments: docs/modules/payments/README.md
+- Analytics: docs/modules/analytics/README.md
+
+### Patterns comunes:
+- Agregando feature nueva: docs/guides/adding-feature.md
+- Refactoring: docs/guides/refactoring-checklist.md
+
+**Importante:** Cuando trabajes en un módulo, SIEMPRE lee su README primero.
+
+Usa: #file docs/modules/[modulo]/README.md

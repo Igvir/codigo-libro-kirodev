@@ -1,0 +1,11 @@
+Tú: Agrega logging a los endpoints de API
+
+Kiro en Supervised:
+Kiro: Encontré 15 endpoints en src/routes/.
+Voy a agregar logger.info() al inicio de cada uno.
+¿Está bien esta approach?
+
+Tú: Espera, mejor usa el middleware de logging que ya existe
+en src/middleware/logger.ts
+
+Kiro: Ah perfecto, usaré ese middleware entonces.

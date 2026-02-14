@@ -1,0 +1,2 @@
+// Validates: Requirement 2.3.1 - "WHEN user submits..."
+it('debe validar email antes de crear usuario', () => {

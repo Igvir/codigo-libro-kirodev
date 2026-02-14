@@ -1,0 +1,15 @@
+[Después de implementar via Run All Tasks]
+
+Tú: Actualiza el issue #142 con el progreso. Marca como
+"In Review" y agrega un comentario con lo implementado.
+
+Kiro: [Actualiza GitLab via MCP]
+
+Issue #142 actualizado:
+✓ Status: In Review
+✓ Comentario agregado con:
+- Lista de archivos creados/modificados
+- Link al commit
+- Checklist de acceptance criteria cumplidos
+
+¿Quieres que cree el merge request también?

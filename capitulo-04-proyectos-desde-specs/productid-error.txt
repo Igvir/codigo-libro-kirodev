@@ -1,0 +1,56 @@
+- En frontend, mostrar errores con toast notifications (usando react-hot-toast)
+
+**Estructura de Carpetas:**
+{format: text}
+```
+/src
+/frontend
+/components # Componentes reutilizables
+/features # Módulos por funcionalidad
+/hooks # Custom hooks compartidos
+/lib # Utilidades y configuración
+/backend
+/routes # Definición de rutas Express
+/controllers # Lógica de negocio
+/models # Modelos de base de datos (Prisma)
+/middleware # Middleware personalizado
+/services # Lógica de negocio compleja
+/shared
+/types # TypeScript types compartidos
+/constants # Constantes del sistema
+```
+
+## Módulos del Sistema
+
+1. **Autenticación y Usuarios** (`/specs/auth-module.md`)
+2. **Gestión de Productos** (`/specs/products-module.md`)
+3. **Control de Inventario** (`/specs/inventory-module.md`)
+4. **Reportes y Analytics** (`/specs/reports-module.md`)
+5. **Notificaciones** (`/specs/notifications-module.md`)
+
+## Integraciones Externas
+
+- **Stripe:** Pagos y suscripciones
+- **SendGrid:** Emails transaccionales
+- **AWS S3:** Almacenamiento de imágenes
+- **Sentry:** Monitoreo de errores
+
+**Variables de Entorno Requeridas:**
+{format: bash}
+```
+# Base de datos
+DATABASE_URL=postgresql://...
+REDIS_URL=redis://...
+
+# Autenticación
+JWT_SECRET=...
+JWT_REFRESH_SECRET=...
+
+# Integraciones
+STRIPE_SECRET_KEY=...
+SENDGRID_API_KEY=...
+AWS_ACCESS_KEY_ID=...
+AWS_SECRET_ACCESS_KEY=...
+AWS_S3_BUCKET=...
+SENTRY_DSN=...
+```

@@ -1,0 +1,16 @@
+proyecto/
+├── .kiro/
+│ ├── hooks/
+│ │ ├── team/ # Hooks que todos usan
+│ │ │ ├── pre-commit-lint.json
+│ │ │ ├── post-merge-deps.json
+│ │ │ └── validate-pr.json
+│ │ ├── optional/ # Hooks que devs pueden activar
+│ │ │ ├── auto-format.json
+│ │ │ └── commit-emoji.json
+│ │ └── experimental/ # Hooks en prueba
+│ │ └── ai-code-review.json
+│ ├── config/
+│ │ └── hooks-policy.json # Qué hooks son obligatorios
+│ └── docs/
+│ └── hooks-guide.md # Documentación para equipo

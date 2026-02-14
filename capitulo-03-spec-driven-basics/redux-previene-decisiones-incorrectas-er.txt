@@ -1,0 +1,3 @@
+- [ ] La aplicación debe ser rápida
+- [ ] El diseño debe verse bien
+- [ ] El código debe ser mantenible

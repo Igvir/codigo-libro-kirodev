@@ -1,0 +1,3 @@
+Tú: Extrae esta lógica de validación a una función reutilizable
+
+Kiro: [crea utils/validation.ts, refactoriza]

@@ -1,0 +1,7 @@
+┌───────────┐
+│ E2E │  Pocos, manuales + automatizados
+├───────────┤
+│Integration│  Kiro genera, tú validas
+├───────────┤
+│ Unit │  Kiro genera muchos, tú filtras
+└───────────┘

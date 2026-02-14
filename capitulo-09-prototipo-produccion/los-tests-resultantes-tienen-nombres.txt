@@ -1,0 +1,21 @@
+describe('NotificationService', () => {
+describe('cuando el usuario tiene dispositivos registrados', () => {
+it('envía notificación push a todos los dispositivos activos', async () => {
+// Criterio de aceptación #1 del spec
+});
+
+it('registra el intento en el historial de notificaciones', async () => {
+// Criterio de aceptación #2 del spec
+});
+});
+
+describe('cuando el token del dispositivo expiró', () => {
+it('marca el dispositivo como inactivo', async () => {
+// Edge case identificado
+});
+
+it('no bloquea el envío a otros dispositivos', async () => {
+// Edge case identificado
+});
+});
+});

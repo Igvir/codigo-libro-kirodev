@@ -1,0 +1,2 @@
+Tú: "Los tipos se ven bien, pero agrega un campo 'createdAt'
+al tipo Todo"

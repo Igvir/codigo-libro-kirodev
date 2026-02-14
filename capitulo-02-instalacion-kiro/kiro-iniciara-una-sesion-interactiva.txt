@@ -1,0 +1,9 @@
+Tú: "Necesito un sistema de tareas donde los usuarios puedan
+crear, editar, marcar como completadas y eliminar tareas"
+
+Kiro: "Entiendo que quieres un sistema CRUD de tareas.
+Voy a expandir esto en user stories con acceptance criteria.
+¿Hay algún detalle específico sobre persistencia o filtros?"
+
+Tú: "Usa localStorage, y agrega filtros para ver
+todas/completadas/pendientes"

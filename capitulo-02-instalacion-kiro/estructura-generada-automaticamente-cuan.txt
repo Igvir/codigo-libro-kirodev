@@ -1,0 +1,10 @@
+mi-proyecto-kiro/
+├── .kiro/
+│ ├── steering/ # Archivos de guía para el agente
+│ │ ├── product.md # Definición del producto
+│ │ ├── tech.md # Stack tecnológico
+│ │ └── structure.md # Estructura del proyecto
+│ ├── specs/ # Especificaciones de features
+│ └── hooks/ # Hooks de automatización
+├── src/ # Tu código (si existe)
+└── README.md # Documentación

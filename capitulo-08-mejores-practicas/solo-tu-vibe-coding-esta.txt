@@ -1,0 +1,9 @@
+Feature: Agregar filtros de búsqueda al producto listing
+
+- Toca 3 archivos (componente, API, DB query)
+- Toma ~90 minutos
+- No es crítico pero es production code
+- Tu equipo lo mantendrá
+
+Decisión: Podría ir en cualquier dirección.
+Mi recomendación: Spec ligero (solo requirements, skip design)

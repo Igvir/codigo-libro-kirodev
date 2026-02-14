@@ -1,0 +1,5 @@
+✓ Leer el código (al menos escanear)
+✓ Correr tests existentes
+✓ Correr el código localmente
+✓ Verificar que sigue convenciones del proyecto
+✓ Code review mental: "¿yo escribiría esto?"

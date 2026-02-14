@@ -1,0 +1,3 @@
+- Validar que el email sea correcto
+- Verificar que la contraseña sea segura
+- Comprobar que el usuario tenga permisos

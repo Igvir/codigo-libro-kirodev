@@ -1,0 +1,38 @@
+---
+name: "acme-auth"
+displayName: "ACME Authentication API"
+description: "Integración con el sistema de auth interno de ACME Corp"
+keywords:
+- auth
+- login
+- acme
+- sso
+- authentication
+- session
+- token
+---
+
+# ACME Auth Power
+
+## Configuración Requerida
+
+Antes de usar este Power, asegúrate de tener:
+- Token de API en variable de entorno `ACME_AUTH_TOKEN`
+- Acceso a la VPN corporativa (o estar en la red interna)
+
+## Endpoints
+
+El MCP server se conecta a:
+- **Producción**: auth.acme.internal
+- **Staging**: auth-staging.acme.internal
+
+## Patrones de Autenticación
+
+### Middleware Requerido
+
+SIEMPRE usar el middleware `verifyAcmeToken` para rutas protegidas:
+
+```typescript
+import { verifyAcmeToken } from '@acme/auth-middleware';
+
+router.use('/api/protected', verifyAcmeToken);

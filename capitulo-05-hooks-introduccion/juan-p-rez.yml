@@ -1,0 +1,6 @@
+const user = await createUser({
+email: 'user@example.com',
+password: 'SecurePass123',
+name: 'Juan Pérez'
+});
+console.log(user.id); // "user-abc-123"

@@ -1,0 +1,14 @@
+Fase 1: Requirements
+├─ Defines user stories
+├─ Escribes acceptance criteria en EARS
+└─ Validas edge cases
+
+Fase 2: Design
+├─ Documentas arquitectura técnica
+├─ Creas sequence diagrams
+└─ Tomas decisiones de implementación
+
+Fase 3: Implementation Planning
+├─ Desglosas en tareas discretas
+├─ Defines outcomes esperados
+└─ Estableces dependencias entre tareas

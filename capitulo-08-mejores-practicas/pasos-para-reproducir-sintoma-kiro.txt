@@ -1,0 +1,16 @@
+Tú: El checkout no funciona. Aquí está el error:
+
+Error: "Cannot read property 'total' of undefined"
+Stack trace: [pegar stack trace]
+
+Pasos para reproducir:
+1. Agregar producto al carrito
+2. Ir a checkout
+3. Click en "Place Order"
+4. Error aparece
+
+Comportamiento esperado:
+Debería crear order en DB y redirigir a confirmation
+
+#file src/pages/checkout.tsx
+#file src/services/orderService.ts

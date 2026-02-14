@@ -1,0 +1,4 @@
+Tú: Recuerda que usamos Prisma, no TypeORM
+Tú: Usamos single quotes
+Tú: Los tests van en __tests__/ no tests/
+Tú: Preferimos functional components

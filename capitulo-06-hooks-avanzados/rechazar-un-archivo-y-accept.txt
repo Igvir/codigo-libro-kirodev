@@ -1,0 +1,9 @@
+Tú: [Rechaza cambios a auth.ts]
+
+Kiro: "Entendido. ¿Cómo te gustaría que maneje la
+autenticación en auth.ts?"
+
+Tú: "No toques auth.ts, usa el sistema de permisos
+existente que ya tenemos implementado"
+
+Kiro: [Continúa con otros archivos usando el sistema existente]

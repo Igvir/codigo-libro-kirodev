@@ -1,0 +1,34 @@
+### Flujo de Recordatorios de Pago
+
+**T+0 (Factura generada):**
+- Sistema genera factura con fecha de vencimiento T+30
+- Envía factura por email inmediatamente
+- Programa recordatorio para T+20
+
+**T+20 (10 días antes de vencimiento):**
+- Envía primer recordatorio amigable
+- Incluye link de pago directo
+- Programa segundo recordatorio para T+30
+
+**T+30 (Fecha de vencimiento):**
+- Si no pagado: envía recordatorio urgente
+- Marca cuenta como "Past Due"
+- Programa recordatorio final para T+37
+
+**T+37 (7 días después de vencimiento):**
+- Si no pagado: envía aviso final
+- Suspende servicios no críticos
+- Programa suspensión total para T+45
+- Notifica a equipo de cobranzas
+
+**T+45 (15 días después de vencimiento):**
+- Si no pagado: suspende todos los servicios
+- Envía aviso de suspensión
+- Inicia proceso de cobranza externa
+- Programa revisión para T+90
+
+**En cualquier momento:**
+- Si pago recibido: cancela todos los recordatorios pendientes
+- Restaura servicios inmediatamente
+- Envía confirmación de pago
+- Actualiza estado de cuenta a "Current"

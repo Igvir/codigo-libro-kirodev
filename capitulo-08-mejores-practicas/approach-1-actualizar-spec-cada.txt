@@ -1,0 +1,4 @@
+Tú: El código evolucionó mucho. Genera nuevo spec
+que documente estado actual del sistema.
+
+Kiro: [analiza código, genera spec actualizado]

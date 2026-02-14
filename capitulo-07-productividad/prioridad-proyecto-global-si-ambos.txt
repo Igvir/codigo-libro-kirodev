@@ -1,0 +1,8 @@
+proyecto/
+├── .kiro/
+│ └── steering.md # Steering general del proyecto
+├── src/
+│ ├── payments/
+│ │ └── .kiro-steering.md # Steering solo para módulo de pagos
+│ └── analytics/
+│ └── .kiro-steering.md # Steering solo para analytics

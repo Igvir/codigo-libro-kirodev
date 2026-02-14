@@ -1,0 +1,2 @@
+- Mostrar lista de productos
+- Permitir búsqueda por nombre

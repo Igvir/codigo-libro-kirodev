@@ -1,0 +1,19 @@
+{
+"name": "security-scan",
+"description": "Escanea código en busca de vulnerabilidades comunes",
+"documentation": {
+"why": "Prevenir vulnerabilidades obvias antes de code review",
+"what_it_checks": [
+"Secrets hardcoded (API keys, passwords)",
+"SQL injection en queries",
+"XSS en renders de HTML",
+"Dependencias con CVEs conocidos"
+],
+"how_to_fix": {
+"secrets": "Mueve a variables de entorno o secrets manager",
+"sql_injection": "Usa prepared statements o ORM",
+"xss": "Sanitiza input con DOMPurify o similar",
+"cves": "Actualiza dependencia o aplica patch"
+}
+}
+}

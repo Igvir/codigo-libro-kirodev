@@ -1,0 +1,25 @@
+// .kiro/hooks/ensure-integration-tests.json
+{
+"name": "ensure-integration-tests",
+"description": "Verifica que nuevos endpoints tienen tests de integración",
+"trigger": {
+"type": "pre-commit"
+},
+"prompt": "Busca en los archivos staged:
+
+1. Archivos en src/routes/ o src/controllers/ que definan nuevos endpoints
+2. Para cada endpoint nuevo (GET, POST, PUT, DELETE):
+- Verifica que existe test en tests/integration/ que lo pruebe
+- Si no existe:
+a) Crea el test básico con supertest
+b) Agrega el archivo al stage
+c) Actualiza .github/workflows/integration-tests.yml si es necesario
+
+3. Si es el primer test de integración del proyecto:
+- Crea *workflow* completo de GitHub Actions
+- Incluye: checkout, node setup, install deps, run tests
+- Guarda en .github/workflows/integration-tests.yml
+
+Reporta cuántos tests fueron creados o si todo ya existía.",
+"autoApprove": false
+}

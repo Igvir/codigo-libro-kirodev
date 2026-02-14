@@ -1,0 +1,14 @@
+{
+"name": "strict-validation",
+"allowBypass": true,
+"bypassFlag": "--urgent-hotfix",
+"bypassRequires": "justification",
+"prompt": "Si el commit incluye flag --urgent-hotfix:
+1. Pide al usuario justificación del *bypass*
+2. Valida que el mensaje incluye 'HOTFIX:' al inicio
+3. Notifica a #engineering-leads en Slack
+4. Crea ticket automáticamente para revisar después
+5. Permite el commit
+
+De lo contrario, ejecuta validaciones normales."
+}

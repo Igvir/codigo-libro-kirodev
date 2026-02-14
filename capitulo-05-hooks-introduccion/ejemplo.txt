@@ -1,0 +1,5 @@
+¡Documentación completa generada automáticamente!
+
+## Hook Esencial #3: Commit Messages Inteligentes
+
+Escribir buenos commit messages es un arte... que la mayoría olvidamos practicar. Este

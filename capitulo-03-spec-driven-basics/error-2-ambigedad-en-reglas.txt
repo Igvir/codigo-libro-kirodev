@@ -1,0 +1,3 @@
+- Validar email con regex RFC 5322 estándar
+- Contraseña debe tener mínimo 8 caracteres, 1 mayúscula, 1 número, 1 símbolo
+- Usuario debe tener rol 'admin' o 'manager' para acceder a configuraciones

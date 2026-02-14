@@ -1,0 +1,8 @@
+WHEN a user submits a form with invalid data
+THE SYSTEM SHALL display validation errors next to relevant fields
+
+WHEN a user clicks the "Export" button
+THE SYSTEM SHALL generate a CSV file containing all displayed transactions
+
+WHEN an API request exceeds the rate limit
+THE SYSTEM SHALL return a 429 status code with a Retry-After header

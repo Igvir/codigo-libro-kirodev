@@ -1,0 +1,10 @@
+Tú: Crea sistema de autenticación
+
+Kiro: [genera código]
+
+Tú: Ahora genera tests:
+- Unit tests para utils (hash password, validate token)
+- Integration tests para endpoints (login, register)
+- Edge cases: expired tokens, wrong password, etc.
+
+Kiro: [genera test suite completa]

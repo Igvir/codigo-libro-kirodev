@@ -1,0 +1,26 @@
+// .kiro/hooks/pre-commit-ci-check.json
+{
+"name": "pre-commit-ci-check",
+"description": "Ejecuta las mismas validaciones que CI/CD pero localmente",
+"trigger": {
+"type": "pre-commit"
+},
+"prompt": "Analiza los archivos staged para commit y ejecuta:
+
+1. Si hay archivos .ts o .tsx modificados:
+- Corre npm run type-check solo en esos archivos
+- Reporta errores de TypeScript encontrados
+
+2. Si hay archivos en src/ modificados:
+- Identifica los test files relacionados
+- Corre solo esos tests con npm test -- <archivos>
+
+3. Si hay archivos en src/api/ modificados:
+- Valida que existe documentación en docs/api/ correspondiente
+- Si falta, créala basándote en los tipos y JSDoc
+
+4. Siempre:
+- Verifica que no hay console.log() en código de producción
+- Confirma que package.json y package-lock.json están sincronizados
+
+Si todo pasa, permite el commit. Si algo falla, muestra exactamente qué arreglar y

@@ -1,0 +1,29 @@
+{
+"mcpServers": {
+"postgres": {
+"command": "npx",
+"args": ["-y", "@modelcontextprotocol/server-postgres"],
+"env": {
+"POSTGRES_CONNECTION_STRING": "${DATABASE_URL}"
+},
+"autoApprove": ["query"]
+},
+"gitlab": {
+"command": "npx",
+"args": ["-y", "@modelcontextprotocol/server-gitlab"],
+"env": {
+"GITLAB_TOKEN": "${GITLAB_TOKEN}",
+"GITLAB_URL": "https://gitlab.com"
+},
+"autoApprove": ["get_issue", "list_project_issues"]
+},
+"aws-docs": {
+"command": "uvx",
+"args": ["awslabs.aws-documentation-mcp-server@latest"],
+"env": {
+"FASTMCP_LOG_LEVEL": "ERROR"
+},
+"autoApprove": ["search_documentation", "read_documentation"]
+}
+}
+}

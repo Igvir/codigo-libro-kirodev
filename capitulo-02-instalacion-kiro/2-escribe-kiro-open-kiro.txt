@@ -1,0 +1,3 @@
+When a React component file is saved in src/components/,
+check if a corresponding test file exists. If not, create
+one with basic render tests and tests for each prop.

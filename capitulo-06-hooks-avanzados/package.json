@@ -1,0 +1,31 @@
+{
+"name": "auto-changelog",
+"description": "Genera changelog automático basado en commits y PRs",
+"trigger": { "type": "post-merge", "branch": "main" },
+"prompt": "Cuando se mergea a main:
+
+1. Analiza el PR mergeado:
+- Extrae título y descripción
+- Identifica tipo: feature, fix, improvement, breaking
+- Busca referencias a tickets de Jira
+
+2. Genera entrada de *changelog*:
+- Si es *feature*: '### New: {título}'
+- Si es fix: '### Fixed: {título}'
+- Si es *breaking*: '### Breaking: {título}'
+- Incluye descripción resumida (max 2 oraciones)
+
+3. Actualiza CHANGELOG.md:
+- Agrega entrada bajo sección 'Unreleased'
+- Mantiene orden cronológico inverso
+
+4. Si es *breaking change* (cambio incompatible):
+- Agrega sección '## Migration Guide' con pasos
+- Notifica a #customer-success en Slack
+- Crea *draft* (borrador) de email para clientes
+
+5. Actualiza version en package.json si es *release* branch
+
+Commitea el CHANGELOG.md actualizado automáticamente.",
+"autoApprove": true
+}

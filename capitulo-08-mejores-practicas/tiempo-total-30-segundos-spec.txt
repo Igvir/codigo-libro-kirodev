@@ -1,0 +1,7 @@
+Tú: Crea un prototipo de integración con Stripe.
+Solo necesito ver si la API funciona como espero.
+
+Kiro: [genera código rápido]
+
+Tú: Ok, funciona. Ahora ya sé cómo hacerlo bien.
+[borra el código]

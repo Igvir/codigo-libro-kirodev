@@ -1,0 +1,3 @@
+El reviewer sugiere usar un patrón Strategy en lugar del switch.
+¿Cómo afectaría esto a nuestra spec de extensibilidad?
+Muéstrame cómo quedaría el refactor.

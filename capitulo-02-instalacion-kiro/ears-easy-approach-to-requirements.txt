@@ -1,0 +1,2 @@
+WHEN [condición/evento]
+THE SYSTEM SHALL [comportamiento esperado]

@@ -1,0 +1,2 @@
+// TODO(P1): Refactorizar esta función - muy compleja
+// Tracked: PROJ-1234

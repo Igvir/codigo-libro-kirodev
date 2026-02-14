@@ -1,0 +1,4 @@
+"¿Qué steering files estás usando?"
+"¿Qué MCP servers tienes disponibles?"
+"Muéstrame tu contexto actual"
+"¿Por qué elegiste usar X library?"

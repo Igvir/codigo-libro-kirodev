@@ -1,0 +1,10 @@
+Tú: Agrega autenticación con JWT al backend Express.
+
+Ya tenemos:
+- bcryptjs para passwords
+- User model en src/models/User.js
+
+Necesito:
+- POST /api/auth/login (retorna JWT)
+- POST /api/auth/register
+- Middleware para proteger rutas

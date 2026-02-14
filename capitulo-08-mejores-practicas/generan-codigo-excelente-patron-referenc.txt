@@ -1,0 +1,1 @@
+Usa el mismo pattern que en otros componentes

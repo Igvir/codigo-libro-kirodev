@@ -1,0 +1,2 @@
+"autoApprove": ["query"] // Solo lectura, aprobación automática
+"autoApprove": [] // Siempre pedir permiso (más seguro)

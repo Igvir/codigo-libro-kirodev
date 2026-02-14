@@ -1,0 +1,20 @@
+.kiro/hooks/
+├── quality/
+│ ├── auto-test.md
+│ ├── auto-lint.md
+│ └── type-check.md
+├── documentation/
+│ ├── inline-docs.md
+│ ├── readme-update.md
+│ └── api-docs.md
+├── security/
+│ ├── secrets-scan.md
+│ ├── dependency-audit.md
+│ └── vulnerability-check.md
+├── team/
+│ ├── i18n-sync.md
+│ ├── jira-integration.md
+│ └── slack-notify.md
+└── git/
+├── commit-message.md
+└── pre-push-check.md

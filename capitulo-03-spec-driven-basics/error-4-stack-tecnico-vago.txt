@@ -1,0 +1,6 @@
+- Frontend: React 18.2+ con TypeScript 5.0+
+- Estado: Zustand 4.4+ (no Redux)
+- Styling: Tailwind CSS 3.3+ con componentes Headless UI
+- Backend: Node.js 18+ con Express 4.18+
+- Base de datos: PostgreSQL 15+ con Prisma ORM 5.0+
+- Testing: Vitest + React Testing Library

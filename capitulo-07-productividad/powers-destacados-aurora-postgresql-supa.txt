@@ -1,0 +1,6 @@
+Power: Aurora PostgreSQL
+Incluye:
+├── MCP server para operaciones de base de datos
+├── Steering con mejores prácticas de diseño de esquemas
+├── Guías de Row Level Security (para Supabase)
+└── Validación de migraciones

@@ -1,0 +1,15 @@
+Tú: Refactoriza el checkout flow para usar nuevo payment service
+
+Kiro: Para hacer esto bien, necesito ver el código actual.
+¿Puedes incluir los archivos relevantes?
+
+Tú: #file src/pages/checkout.tsx
+#folder src/services/payment
+#spec payment-refactor
+
+Kiro: Perfecto, ahora veo:
+- checkout.tsx actual (usa old payment logic)
+- Nueva estructura en services/payment/
+- Spec de refactor que creamos la semana pasada
+
+Comenzando refactor...

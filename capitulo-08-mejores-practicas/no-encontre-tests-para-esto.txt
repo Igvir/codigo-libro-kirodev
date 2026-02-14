@@ -1,0 +1,8 @@
+Kiro: Este cambio modificará 47 archivos
+
+Tú: Espera, muéstrame la lista de archivos primero
+
+Kiro: [lista archivos]
+
+Tú: Ok, la mayoría son tests auto-generados.
+Adelante pero excluye src/legacy/

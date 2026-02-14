@@ -1,0 +1,2 @@
+Convierte user-service.js a TypeScript con strict mode.
+Agrega tipos apropiados a todas las funciones y parámetros.

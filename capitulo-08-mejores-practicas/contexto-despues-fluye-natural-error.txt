@@ -1,0 +1,5 @@
+Tú: Crea componente de tabla con sorting
+
+Kiro: [genera tabla básica]
+
+Tú: Gracias [usa el código sin revisar]

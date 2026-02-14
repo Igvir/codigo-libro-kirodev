@@ -1,0 +1,22 @@
+Tú: Crea una spec completa a partir del issue #142
+
+Kiro: [Lee issue completo de GitLab]
+
+Voy a crear la spec basándome en el issue.
+El issue incluye:
+- Descripción detallada del feature
+- Acceptance criteria
+- Notas técnicas del tech lead
+
+Generando spec en .kiro/specs/notificaciones-push/...
+
+[Crea requirements.md]
+[Crea design.md basado en notas técnicas]
+[Genera tasks.md]
+
+Spec creada. Resumen:
+- 8 requirements extraídos del acceptance criteria
+- Design incluye integración con Firebase Cloud Messaging
+- 12 tareas estimadas
+
+¿Quieres revisar el design antes de implementar?

@@ -1,0 +1,5 @@
+Cuando se guarda un archivo:
+1. Ejecutar tests solo del archivo modificado (10 segundos)
+2. Actualizar documentación inline de ese archivo (5 segundos)
+
+# Total: 15 segundos

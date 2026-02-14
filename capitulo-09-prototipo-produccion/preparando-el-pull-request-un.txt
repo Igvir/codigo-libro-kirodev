@@ -1,0 +1,6 @@
+Genera la descripción del PR para los cambios en el módulo de pagos.
+Incluye:
+- Qué problema resuelve (referencia al spec)
+- Cómo lo resuelve (decisiones técnicas clave)
+- Qué probar manualmente
+- Riesgos potenciales

@@ -1,0 +1,7 @@
+Tú: Renombra todas las referencias de "User" a "Customer"
+
+Kiro en Supervised:
+- Muestra lista de 23 archivos que modificará
+- Tú revisas la lista
+- Notas que quiere modificar tests/ pero prefieres hacerlo manual
+- Apruebas todo excepto tests/

@@ -1,0 +1,15 @@
+1. AUTOPILOT para trabajo fundacional
+└── Scaffolding inicial
+└── Configuración de proyecto
+└── Boilerplate
+
+2. SUPERVISED para lógica crítica
+└── Autenticación y autorización
+└── Manejo de pagos
+└── Operaciones de base de datos
+└── Cualquier cosa que toque datos de usuarios
+
+3. AUTOPILOT para limpieza final
+└── Formateo de código
+└── Generación de tests
+└── Actualización de documentación

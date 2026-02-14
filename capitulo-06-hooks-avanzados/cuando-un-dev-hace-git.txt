@@ -1,0 +1,4 @@
+Hook actualizado: pre-commit-lint (1.0.0 -> 2.1.0)
+Cambios: Agregado soporte para .vue files
+
+¿Quieres ver el *changelog* completo? [y/n]

@@ -1,0 +1,29 @@
+**Proyecto: Sistema de órdenes de compra**
+
+**Developer A (Frontend Specialist):**
+- Spec: `/specs/frontend/purchase-orders-ui.md`
+- Responsable de:
+- Todos los componentes React
+- Lógica de estado (Redux/Zustand)
+- Validaciones de formularios
+- UX/UI implementation
+
+**Developer B (Backend Specialist):**
+- Spec: `/specs/backend/purchase-orders-api.md`
+- Responsable de:
+- Todos los endpoints
+- Lógica de negocio
+- Validaciones del servidor
+- Optimización de queries
+
+**Developer C (Full Stack - Integrador):**
+- Spec: `/specs/integration/purchase-orders-flow.md`
+- Responsable de:
+- Conectar frontend con backend
+- Manejo de errores end-to-end
+- Testing de integración
+- Deployment
+
+**Punto de integración:** Contrato de API en
+`/specs/shared/purchase-orders-api-contract.md` define exactamente qué
+endpoints existen, qué reciben y qué retornan.

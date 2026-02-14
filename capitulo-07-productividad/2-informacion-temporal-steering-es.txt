@@ -1,0 +1,3 @@
+MAL: Listar bugs conocidos o TODOs del sprint actual
+
+BIEN: Esto va en issues/tickets, no steering

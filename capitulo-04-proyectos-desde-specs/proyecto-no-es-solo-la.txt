@@ -1,0 +1,6 @@
+┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+│ Usuario  │─── │ Frontend │─── │ Backend  │─── │ Base     │
+│          │    │          │    │          │    │ de Datos │
+└──────────┘    └──────────┘    └──────────┘    └──────────┘
+
+Decisiones: Pocas, aisladas, fáciles de cambiar después.

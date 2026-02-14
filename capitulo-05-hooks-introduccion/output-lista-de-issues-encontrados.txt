@@ -1,0 +1,30 @@
+### SaaS Dashboard: Tracking de Métricas
+
+```text
+# Auto-agregar Analytics Tracking
+
+## Trigger: On File Save
+## Pattern: src/pages/**/*.tsx
+
+Cuando se crea o modifica una página:
+
+**Detectar eventos importantes:**
+* Botones de acción (Save, Submit, Delete, etc.)
+* Formularios
+* Navegación entre secciones
+* Modals/Dialogs
+
+**Para cada evento, agregar tracking:**
+```typescript
+// Antes:
+<button onClick={handleSave}>Save</button>
+
+// Después (agregado automáticamente):
+<button onClick={(e) => {
+analytics.track('dashboard_save_clicked', {
+page: 'settings',
+section: 'profile',
+timestamp: Date.now()
+});
+handleSave(e);
+}}>Save</button>

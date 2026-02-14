@@ -1,0 +1,17 @@
+[CONTEXTO]
+Este es un proyecto Next.js con React Hook Form + Zod.
+Ya tenemos auth backend en /api/auth/login.
+
+[ACCIÓN]
+Crea componente LoginForm.tsx que:
+- Tiene campos email y password
+- Valida con Zod schema
+- Llama al endpoint /api/auth/login
+- Guarda JWT en localStorage
+- Redirige a /dashboard en éxito
+
+[CONSTRAINTS]
+- Debe ser responsive (mobile-first)
+- Muestra errores de validación inline
+- Loading state durante submit
+- NO uses librerías adicionales

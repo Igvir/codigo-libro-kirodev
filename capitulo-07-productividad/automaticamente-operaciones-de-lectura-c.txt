@@ -1,0 +1,28 @@
+Tú: Voy a implementar el sistema de reviews. ¿Qué tablas
+tenemos relacionadas con productos y usuarios?
+
+Kiro: [Consulta via MCP]
+
+Encontré estas tablas relevantes:
+
+`products`:
+- id: uuid (PK)
+- name: varchar(255)
+- price: decimal(10,2)
+- category_id: uuid (FK  categories)
+
+`users`:
+- id: uuid (PK)
+- email: varchar(255) UNIQUE
+- created_at: timestamp
+
+`reviews` (ya existe):
+- id: uuid (PK)
+- product_id: uuid (FK  products)
+- user_id: uuid (FK  users)
+- rating: integer (1-5)
+- comment: text
+- created_at: timestamp
+
+La tabla `reviews` ya existe. ¿Quieres que la extienda
+o creamos una estructura diferente?

@@ -1,0 +1,6 @@
+- Mostrar lista de productos con loading state inicial
+- Si no hay productos, mostrar mensaje "No hay productos disponibles"
+- Si API falla, mostrar error y botón de retry
+- Búsqueda por nombre con debounce de 300ms
+- Si búsqueda no encuentra resultados, mostrar "No se encontraron productos"
+- Si búsqueda falla, mantener resultados anteriores y mostrar warning

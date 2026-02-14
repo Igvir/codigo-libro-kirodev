@@ -1,0 +1,14 @@
+{
+"mcpServers": {
+"gitlab": {
+"command": "npx",
+"args": ["-y", "@modelcontextprotocol/server-gitlab"],
+"env": {
+"GITLAB_TOKEN": "${GITLAB_TOKEN}",
+"GITLAB_URL": "https://gitlab.com"
+},
+"disabled": false,
+"autoApprove": ["get_issue", "list_project_issues", "search_issues"]
+}
+}
+}

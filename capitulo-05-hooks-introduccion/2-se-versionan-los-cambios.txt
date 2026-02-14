@@ -1,0 +1,17 @@
+## Development Hooks
+
+Este proyecto usa Kiro Agent Hooks para automatizar calidad de código:
+
+### Hooks Activos:
+
+- **auto-test** (On File Save): Genera tests automáticamente para nuevo código
+- **security-scan** (On File Save): Escanea vulnerabilidades y secretos
+- **commit-message** (Manual): Genera commit messages descriptivos
+- **i18n-sync** (On File Save): Sincroniza traducciones entre idiomas
+
+### Configuración:
+
+Los hooks se ejecutan automáticamente. Para ejecutar manualmente:
+```bash
+# Desde UI: Panel de Hooks > Click en Execute
+# Desde CLI: kiro-cli hook <hook-name>

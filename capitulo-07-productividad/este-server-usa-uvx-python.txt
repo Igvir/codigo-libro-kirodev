@@ -1,0 +1,24 @@
+Tú: ¿Cuáles son los límites actuales de Amazon SQS para
+tamaño de mensaje y throughput?
+
+Kiro: [Busca en AWS docs via MCP]
+
+Según la documentación oficial de SQS:
+
+**Tamaño de mensaje:**
+- Mínimo: 1 byte
+- Máximo: 256 KB
+- Para mensajes más grandes: usar Extended Client Library
+con S3 (hasta 2 GB)
+
+**Throughput:**
+- Standard queues: ilimitado (best-effort)
+- FIFO queues: 3,000 msg/seg con batching, 300 sin batching
+- FIFO High Throughput: hasta 70,000 msg/seg por queue
+
+**Retención:**
+- Mínimo: 1 minuto
+- Máximo: 14 días
+- Default: 4 días
+
+¿Necesitas que ajuste el código considerando estos límites?

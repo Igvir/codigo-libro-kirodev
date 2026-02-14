@@ -1,0 +1,3 @@
+- Frontend: React
+- Backend: Node.js
+- Base de datos: SQL

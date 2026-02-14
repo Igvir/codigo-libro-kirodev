@@ -1,0 +1,6 @@
+
+**Ejemplo 3:**
+- Productos: Laptop ($1,200) + Mouse ($50) = $1,250
+- Cliente: Standard con 5 compras previas
+- Envío: $15 (gratis si >$1,000)
+- Resultado esperado: $1,250 + $0 (envío gratis) = $1,250

@@ -1,0 +1,6 @@
+MAL: No incluir ejemplos de código completos de 80+ líneas
+
+BIEN:
+## Componentes
+Ver src/components/README.md para patterns.
+Template disponible: npm run generate:component

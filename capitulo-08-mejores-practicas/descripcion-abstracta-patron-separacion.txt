@@ -1,0 +1,3 @@
+Crea dashboard con autenticación, gráficas de ventas,
+tabla de productos, búsqueda, filtros, exportación a CSV,
+notificaciones, y perfil de usuario

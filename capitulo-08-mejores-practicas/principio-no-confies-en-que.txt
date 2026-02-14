@@ -1,0 +1,15 @@
+Crea API client para backend
+
+NO usar:
+- axios (queremos fetch nativo)
+- clases (usar funciones)
+- any types (todo debe estar tipado)
+
+NO implementar:
+- retry logic (lo haremos después)
+- caching (usaremos React Query)
+
+SÍ incluir:
+- Error handling con try-catch
+- TypeScript interfaces para responses
+- Headers con auth token

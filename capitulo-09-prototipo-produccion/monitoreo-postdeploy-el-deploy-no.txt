@@ -1,0 +1,5 @@
+Define alertas para monitorear el nuevo flujo de checkout:
+- Tasa de errores superior al baseline
+- Latencia del endpoint de pago
+- Conversión comparada con versión anterior
+- Errores específicos mencionados en el spec de manejo de errores

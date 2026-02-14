@@ -1,0 +1,36 @@
+┌─────────────────────────────────────────────────────────────────┐
+│ CAPA 1: ESPECIFICACIÓN MAESTRA                                  │
+│ (System Spec)                                                   │
+│                                                                 │
+│ • Arquitectura general • Stack tecnológico                      │
+│ • Decisiones compartidas • Convenciones de código               │
+│ • Contratos entre módulos • Patrones obligatorios               │
+│                                                                 │                                                  
+│ Audiencia: Todo el equipo                                       │
+│ Frecuencia de cambio: Baja (requiere consenso)                  │
+└─────────────────────────────────────────────────────────────────┘
+                     │                 
+┌─────────────────────────────────────────────┐
+│ CAPA 2: ESPECIFICACIONES DE MÓDULO          │
+│ (Module Specs)                              │
+│                                             │                  
+│ • Subsistemas completos                     │
+│ • Autenticación, Pagos, Notificaciones      │
+│ • Interfaces públicas del módulo            │
+│                                             │
+│ Audiencia: Equipo del módulo + integradores │
+│ Frecuencia de cambio: Media                 │
+└─────────────────────────────────────────────┘
+                     │
+┌───────────────────────────────────┐
+│ CAPA 3: SPECS DE COMPONENTE       │
+│ (Component Specs)                 │
+│                                   │
+│ • Un endpoint específico          │
+│ • Un componente React             │
+│ • Una función auxiliar            │
+│                                   │
+│ Audiencia: Desarrollador          │
+│ individual                        │
+│ Frecuencia de cambio: Alta        │
+└───────────────────────────────────┘

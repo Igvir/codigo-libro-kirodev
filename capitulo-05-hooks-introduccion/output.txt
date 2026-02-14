@@ -1,0 +1,10 @@
+Slack Notification Sent
+
+Channel: #api-changes
+Message: Breaking change alert for createUser()
+Thread: api-changes-2024-01
+
+Recipients notified:
+- @backend-team
+- @mobile-team
+- @api-consumers
